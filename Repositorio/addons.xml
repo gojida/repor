@@ -15,9 +15,8 @@
     <import addon="plugin.video.youtube" optional="true" />
     <import addon="script.module.urlresolver" optional="true"/>
     <import addon="script.module.simplejson" />
-     <import addon="script.module.livestreamer" optional="true"/>
+    <import addon="script.module.livestreamer" optional="true"/>
   </requires>
-
   <extension point="xbmc.python.pluginsource" library="default.py">
     <provides>video</provides>
   </extension>
@@ -31,9 +30,9 @@
 
 <addon id="repository.Mirepor" name="[COLOR lime]Mi Repositorio[/COLOR] Repo" version="1.0.1" provider-name="Yo Mismo">
     <extension point="xbmc.addon.repository" name="Mi repositorio">
-        <info compresed="false">https://raw.githubusercontent.com/gojida/Repo/master/Repositorio/addons.xml</info>
+        <info>https://raw.githubusercontent.com/gojida/Repo/master/Repositorio/addons.xml</info>
         <checksum>https://raw.githubusercontent.com/gojida/Repo/master/Repositorio/addons.xml.md5</checksum>
-        <datadir zip="true">https://raw.githubusercontent.com/gojida/master/Repositorio/</datadir>
+        <datadir zip="true">https://raw.githubusercontent.com/gojida/repor/tree/master/Repositorio</datadir>
     </extension>
     <extension point="xbmc.addon.metadata">
         <summary>Repositorio para Mi</summary>
