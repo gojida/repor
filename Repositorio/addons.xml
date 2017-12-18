@@ -30,7 +30,7 @@
 
 <addon id="repository.Mirepor" name="[COLOR lime]Mi Repositorio[/COLOR] Repo" version="1.0.2" provider-name="Yo Mismo">
     <extension point="xbmc.addon.repository" name="Mi repositorio">
-        <info compresed="false">https://raw.githubusercontent.com/gojida/Repo/master/Repositorio/addons.xml</info>
+        <info compresed="true">https://raw.githubusercontent.com/gojida/Repo/master/Repositorio/addons.xml</info>
         <checksum>https://raw.githubusercontent.com/gojida/Repo/master/Repositorio/addons.xml.md5</checksum>
         <datadir zip="true">https://raw.githubusercontent.com/gojida/repor/tree/master/Repositorio/</datadir>
     </extension>
