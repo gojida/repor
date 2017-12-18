@@ -16,6 +16,7 @@
     <import addon="script.module.simplejson" />    
      <import addon="script.module.livestreamer" optional="true"/>
   </requires>
+  
   <extension point="xbmc.python.pluginsource" library="default.py">
     <provides>video</provides>
   </extension>
